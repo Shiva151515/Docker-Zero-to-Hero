@@ -1,0 +1,32 @@
+Branching strategy
+
+
+1. in my current project we have below branches
+
+a.Devolpment branch
+b.Release branch
+c.Bug fixing branch
+d.Master branch
+
+1.Devlopment branch
+
+	whenever my client is asking to add the new feature into existing application then the development team will create the new branch and name it as Development branch. Here we can add the new feature. 
+
+2.Release Branch
+
+	After development is completed we need to perform the testing on the developer code, once the testing is completed we are going to relese the code into customer after relese is completed we are moving that code into relese branch.
+
+3.Bug fixing branch
+
+	After code is relesed to customer incase any issue happened any issue happened in old releses then we are creating bug fix branch
+	once developer fix the bug then we will rebuild the code and redeploy the code
+
+4.Master branch
+
+	Under master branch we are maintaining original source code.master branch acts as parent branch 
+	before we are merging the code into master branch we are creating pull request, in the pull request we are creating code and we will add the reviewer details.once pull request raised then reviwer review the code and reviwer will provide review comments.Once the review is completed reviwer will approve the code. once code is approved the we will merge the code into master branch.
+
+
+Merge Conflicts
+
+	If developer trying to merge the code but they are not maintaining the updated code in that case developer will face the merge conflict. to avoid merge conflict the developer has to pull the latest code from the master then they will merge the code
